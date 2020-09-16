@@ -1,0 +1,112 @@
+[2020-08-29 15:54:15] local.ERROR: file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied {"exception":"[object] (ErrorException(code: 0): file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied at /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:38)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', '/var/www/tess/v...', 38, Array)
+#1 /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(38): file_get_contents('/var/www/tess/b...')
+#2 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(100): Illuminate\\Filesystem\\Filesystem->get('/var/www/tess/b...')
+#3 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#4 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#8 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 /var/www/tess/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 {main}
+"} 
+[2020-08-29 17:25:28] local.ERROR: file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied {"exception":"[object] (ErrorException(code: 0): file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied at /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:38)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', '/var/www/tess/v...', 38, Array)
+#1 /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(38): file_get_contents('/var/www/tess/b...')
+#2 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(100): Illuminate\\Filesystem\\Filesystem->get('/var/www/tess/b...')
+#3 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#4 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#8 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 /var/www/tess/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 {main}
+"} 
+[2020-08-29 17:56:57] local.ERROR: file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied {"exception":"[object] (ErrorException(code: 0): file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied at /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:38)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', '/var/www/tess/v...', 38, Array)
+#1 /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(38): file_get_contents('/var/www/tess/b...')
+#2 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(100): Illuminate\\Filesystem\\Filesystem->get('/var/www/tess/b...')
+#3 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#4 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#8 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 /var/www/tess/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 {main}
+"} 
+[2020-08-29 18:29:36] local.ERROR: file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied {"exception":"[object] (ErrorException(code: 0): file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied at /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:38)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', '/var/www/tess/v...', 38, Array)
+#1 /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(38): file_get_contents('/var/www/tess/b...')
+#2 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(100): Illuminate\\Filesystem\\Filesystem->get('/var/www/tess/b...')
+#3 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#4 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#8 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 /var/www/tess/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 {main}
+"} 
+[2020-08-29 19:47:36] local.ERROR: file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied {"exception":"[object] (ErrorException(code: 0): file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied at /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:38)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', '/var/www/tess/v...', 38, Array)
+#1 /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(38): file_get_contents('/var/www/tess/b...')
+#2 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(100): Illuminate\\Filesystem\\Filesystem->get('/var/www/tess/b...')
+#3 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#4 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#8 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 /var/www/tess/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 {main}
+"} 
+[2020-08-29 19:51:50] local.ERROR: file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied {"exception":"[object] (ErrorException(code: 0): file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied at /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:38)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', '/var/www/tess/v...', 38, Array)
+#1 /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(38): file_get_contents('/var/www/tess/b...')
+#2 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(100): Illuminate\\Filesystem\\Filesystem->get('/var/www/tess/b...')
+#3 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#4 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#8 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 /var/www/tess/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 {main}
+"} 
+[2020-08-29 19:51:51] local.ERROR: file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied {"exception":"[object] (ErrorException(code: 0): file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied at /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:38)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', '/var/www/tess/v...', 38, Array)
+#1 /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(38): file_get_contents('/var/www/tess/b...')
+#2 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(100): Illuminate\\Filesystem\\Filesystem->get('/var/www/tess/b...')
+#3 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#4 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#8 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 /var/www/tess/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 {main}
+"} 
+[2020-08-29 22:01:04] local.ERROR: file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied {"exception":"[object] (ErrorException(code: 0): file_get_contents(/var/www/tess/bootstrap/cache/packages.php): failed to open stream: Permission denied at /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:38)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', '/var/www/tess/v...', 38, Array)
+#1 /var/www/tess/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(38): file_get_contents('/var/www/tess/b...')
+#2 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(100): Illuminate\\Filesystem\\Filesystem->get('/var/www/tess/b...')
+#3 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#4 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#6 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#7 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#8 /var/www/tess/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#9 /var/www/tess/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#10 {main}
+"} 
